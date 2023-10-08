@@ -1,0 +1,122 @@
+.sidebar_open {
+    position: fixed;
+    display: flex;
+    background-color: rgb(232,168,124);
+    /* align-items:flex-start; */
+    /* justify-content: center; */
+    top: 0;
+    left: 0;
+    width: 20em;
+    height: 100%;
+    z-index: 100;
+    left: -260px;
+    /* margin-left: -230px; */
+    /* visibility: hidden; */
+    /* transition: 1s; */
+}
+
+.sidebar_close {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* display: none; */
+    width: 5em;
+    height: 5em;
+    top: 0;
+    left: 0;
+    background-color: salmon;
+    z-index: 100;
+    /* transition: 1s; */
+}
+
+.burger-cls {
+    padding: 10px;
+}
+
+/* .image-label {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+} */
+
+
+.navigate {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* margin: auto; */
+    /* margin-left: 30px; */
+    height: 100%;
+    width: 100%;
+    /* transform: 1s; */
+}
+
+.nav-links {
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing:border-box;
+    /* flex-wrap: wrap; */
+}
+
+.nav-links li {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    flex: 1;
+    /* padding: 10px; */
+}
+
+.nav-links li:hover {
+    background-color: skyblue;
+}
+
+.close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.burger-button {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.sidebar_open img{
+    width: 50px;
+    height: 50px;
+}
+
+.sidebar_close img{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    width: 50px;
+    height: 50px;
+}
+
+.dropdown {
+    display: none;
+}
+
+/* input[type=checkbox]{
+    display: none;
+} */
+
+.sidebar{
+    /* height: 3000 */
+    margin: 0;
+}

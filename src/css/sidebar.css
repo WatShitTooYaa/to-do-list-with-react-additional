@@ -1,0 +1,244 @@
+/* sidebar container */
+
+.sidebars-container {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 75px;
+    box-sizing: border-box;
+    z-index: 100;
+    transition: 1s;
+    /* background-color: transparent;/ */
+}
+
+.sidebars-close {
+    height: 100px;
+    display: block;
+    transition: background-color 2s;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+
+.sidebars-open {
+    display: flex;
+    flex-direction: column;
+    box-sizing:content-box;
+    transition: .8s;
+    height: 100%;
+    /* background-color: rgb(251, 255, 0); */
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    /* margin: 2px; */
+    /* border: 2px solid black ; */
+    background-color: rebeccapurple;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+
+
+/* box inside sidebar */
+
+
+.box1 {
+    z-index: 4;
+}
+
+.sidebars-open .box1 {
+    transition: 1s;
+    margin-top: 0px;
+}
+
+.sidebars-open .box2 {
+    transition: 1s;
+    margin-top: 100px;
+}
+.sidebars-open .box2:hover {
+    transition: 1s;
+    background-color: aqua;
+    margin-top: 100px;
+}
+.sidebars-open .box2:hover .box-name{
+    left: 70px;
+}
+
+.sidebars-open .box3 {
+    transition: 1s;
+    margin-top: 200px;
+}
+.sidebars-open .box3:hover {
+    transition: 1s;
+    background-color: aqua;
+    margin-top: 200px;
+}
+.sidebars-open .box3:hover .box-name{
+    left: 70px;
+}
+
+.sidebars-open .box4 {
+    margin-top: 300px;
+    width: 75px;
+    display: flex;
+    justify-content: left;
+}
+.sidebars-open .box4:hover .dropdown{
+    left: 80px;
+}
+.sidebars-open .box4:hover img{
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+.sidebars-open .box5 {
+    transition: 1s;
+    margin-top: 400px;
+}
+.sidebars-open .box5:hover {
+    background-color: aqua;
+}
+.sidebars-open .box5:hover .box-name{
+    left: 70px;
+}
+.sidebars-open .box6 {
+
+    transition: 1s;
+    margin-top: 500px;
+}
+.sidebars-open .box6:hover {
+    background-color: aqua;
+}
+.sidebars-open .box6:hover .box-name{
+    left: 70px;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+
+
+/* box inside box */
+.boxes1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-box {
+    /* background-color: red; */
+    /* position: absolute; */
+    width: 75px;
+    height: 75px;
+}
+
+.text-box {
+    transition: 1s;
+    background-color: aqua;
+    width: 225px;
+    height: 75px;
+}
+
+.text-box-remove {
+    display: none;
+}
+
+
+/* img inside box */
+.sidebars-open .boxes a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebars-open .boxes label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebars-open img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.label-icon-burger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-icon-burger img {
+    display: block;
+    width: 50%;
+    height: 50%;
+}
+
+
+
+/* box name */
+.box-name {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px black solid; */
+    border-radius: 10px;
+    background-color: aqua;
+    left: -100px;
+    z-index: -1;
+    transition: 1s;
+}
+
+/* dropdown */
+.dropdown {
+    display: block;
+    position: absolute;
+    left: 80px;
+    /* opacity: 0; */
+    left: -150px;
+    transition: 1s;
+    z-index: -1;
+}
+
+.dropbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    background-color: aqua;
+    margin: 3px;
+    transition: 1s;
+}
+
+
+/* transition background */
+.bg-close {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    /* background-color: red; */
+    transition: 1s;
+}
+
+.bg-open {
+    transition: 1.1s;
+    width: 75px;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(210, 247, 76);
+}

@@ -1,0 +1,20 @@
+.home {
+    margin-left: 80px;
+}
+
+.h1-test {
+    margin: 100px 100px 100px 100px;    
+    /* padding: 10%; */
+    background-color: rgba(255, 255, 255, 0.562);
+}
+
+.kotak {
+    margin: auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.kotak:hover {
+    background-color: aqua;
+}

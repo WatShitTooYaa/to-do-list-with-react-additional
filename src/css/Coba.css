@@ -1,0 +1,126 @@
+.block_css {
+    position: absolute;
+    margin-left: 100px;
+}
+
+.kotak-1 {
+    background-color: rgb(235, 65, 65);
+    /* border-radius: 45px; */
+    width: 100px;
+    height: 100px;
+    transition: 1s ease;
+    /* margin: 0px 10px; */
+}
+
+.container {
+    margin: 10px auto;
+    width: 900px;
+    border: 5px solid black;
+}
+
+.container:hover .kotak-1{
+    transform: rotate(180deg);
+    /* transform:perspective(1000px); */
+    margin-left: 800px;
+    background-color: rgb(0, 255, 255);
+}
+
+.box_contain {
+    border: 3px solid black;
+    background-color: salmon;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 2px;
+    /* display: flex; */
+}
+
+
+
+
+/* 
+.kotak:hover {
+    transform: rotate(30deg);
+    margin: 0px 100px;
+} */
+
+/* h1 {
+    font: 30px;
+    color: blue;
+} */
+
+/* .css-try {
+    color: green;
+    background-image: url(../assets/webb-dark.png);
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+} */
+
+/* ul li a {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+} */
+
+/* ul li a:hover {
+    color: inherit
+}
+
+ul li a:active {
+    color: green;
+}
+
+ol li a {
+    color: aqua;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li:nth-child(even) a{
+    color: blue;
+}
+
+li:nth-child(even) a:hover{
+    color: yellow;
+}
+
+ol li a:hover {
+    color: red;
+} */
+
+/* ol li a:visited{
+    color: yellow;
+} */
+
+/* .Cobah1 {
+    color: skyblue;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: ;
+} */
+
+/* p {
+    color: yellow;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 60px;
+    font-weight: normal;
+    font-variant: normal;
+    font-style: normal;
+} */
